@@ -22,25 +22,25 @@ self.addEventListener('install', e => {
     const cacheProm = caches.open(CACHE_STATIC_NAME)
         .then(cache => {
             return cache.addAll([
-                '/',
-                '/index.html',
-                '/img/codebar-logo.png',
-                '/js/jquery-1.3.2.min.js',
-                '/js/JsBarcode.all.min.js',
-                '/js/scripts.js',
-                '/js/bootstrap.min.js',
-                '/js/popper.js',
-                '/js/dataTable.js',
-                '/manifest.json',
-                '/css/style.css',
-                '/css/datatable.css',
+                '/natubot/',
+                '/natubot/index.html',
+                '/natubot/img/codebar-logo.png',
+                '/natubot/js/jquery-1.3.2.min.js',
+                '/natubot/js/JsBarcode.all.min.js',
+                '/natubot/js/scripts.js',
+                '/natubot/js/bootstrap.min.js',
+                '/natubot/js/popper.js',
+                '/natubot/js/dataTable.js',
+                '/natubot/manifest.json',
+                '/natubot/css/style.css',
+                '/natubot/css/datatable.css',
             ]);
         });
 
     const cacheInmutable = caches.open(CACHE_INMUTABLE_NAME)
         .then(cache => {
             return cache.addAll([
-                '/css/bootstrap.min.css',
+                '/natubot/css/bootstrap.min.css',
             ]);
         });
 
