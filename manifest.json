@@ -6,8 +6,8 @@
     "theme_color": "#FFFFFF",
     "orientation": "portrait",
     "display": "standalone",
-    "start_url": "/",
-    "scope": "./",
+    "start_url": "/natubot/",
+    "scope": "./natubot/",
     "lang": "es-CO",
     "icons": [
         {
