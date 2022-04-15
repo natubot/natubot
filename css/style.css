@@ -1,0 +1,10 @@
+.btn-settings:hover{
+    cursor: pointer;
+    color: blue;
+}
+.btns-actions{
+    position:absolute;
+    right:3rem;
+    z-index:2;
+    padding:1rem 1rem
+}
